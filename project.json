@@ -1,0 +1,10 @@
+{
+    "name": "science",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "science.xml",
+    "author": "ArashRazzaghi",
+    "minimum_firmware_version": 42
+}
