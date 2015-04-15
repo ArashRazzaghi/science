@@ -30,6 +30,17 @@
                 <next>
                   <block type="oled_drawtext" id="288">
                     <field name="TEXT">working...</field>
+                    <next>
+                      <block type="movement_forward" id="340">
+                        <next>
+                          <block type="movement_stop" id="360">
+                            <next>
+                              <block type="movement_reverse" id="385"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
