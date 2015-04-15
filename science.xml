@@ -1,38 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="50" y="14">
+  <block type="oled_cleardisplay" id="19" x="42" y="-3">
     <next>
-      <block type="robot_delay" id="30" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="61">
-            <field name="NUM">200</field>
+      <block type="oled_setcursor" id="38" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="53">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="52">
+            <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="movement_right" id="71">
-            <next>
-              <block type="movement_right" id="88">
-                <next>
-                  <block type="movement_right" id="145">
-                    <next>
-                      <block type="movement_right" id="171">
-                        <next>
-                          <block type="robot_delay" id="106" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="120">
-                                <field name="NUM">200</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="movement_forward" id="183"></block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
+          <block type="oled_drawtext" id="62">
+            <field name="TEXT">goverment property</field>
           </block>
         </next>
       </block>
