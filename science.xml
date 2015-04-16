@@ -1,41 +1,41 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="19" x="42" y="-3">
+  <block type="oled_cleardisplay" id="1" x="42" y="-3">
     <next>
-      <block type="oled_setcursor" id="38" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="53">
+          <block type="math_number" id="3">
             <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="52">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="62">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">goverment property</field>
             <next>
-              <block type="oled_setcursor" id="108" inline="true">
+              <block type="oled_setcursor" id="6" inline="true">
                 <value name="STARTX">
-                  <block type="math_number" id="206">
+                  <block type="math_number" id="7">
                     <field name="NUM">10</field>
                   </block>
                 </value>
                 <value name="STARTY">
-                  <block type="math_number" id="207">
+                  <block type="math_number" id="8">
                     <field name="NUM">30</field>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="288">
+                  <block type="oled_drawtext" id="9">
                     <field name="TEXT">working...</field>
                     <next>
-                      <block type="movement_forward" id="340">
+                      <block type="movement_forward" id="10">
                         <next>
-                          <block type="movement_stop" id="360">
+                          <block type="movement_stop" id="11">
                             <next>
-                              <block type="movement_reverse" id="385"></block>
+                              <block type="movement_reverse" id="12"></block>
                             </next>
                           </block>
                         </next>
